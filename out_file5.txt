@@ -1,0 +1,48 @@
+postfixEvaluate - 1
+  yeah
+postfixEvaluate + 1 3 4 -
+  yeah
+postfixEvaluate + 1 3 -
+  yeah
+postfixEvaluate +
+  yeah
+postfixEvaluate + 3 4 - 1
+  yeah
+postfixEvaluate 4 5 + 6 0 * /
+  yeah
+postfixEvaluate } 78 97 + 6 / 5 +
+  yeah
+postfixToInfix 3 + 3 /
+  yeah
+postfixToInfix 3 3 4 +
+  yeah
+postfixToInfix *
+  yeah
+postfixToInfix + 3 3
+  yeah
+postfixToInfix 3 3
+  yeah
+postfixToInfix five plus three
+  yeah
+postfixToInfix 4.3 2 +
+  yeah
+postfixToInfix 56 67 34 + - * 1
+  yeah
+infixToPostfix { { 2 + 4 }
+  yeah
+infixToPostfix 2 + a
+  yeah
+infixToPostfix 3 $ 3
+  yeah
+infixToPostfix 4 * ( 2 + 4 - ( 2 + )  ) - 4 / 5
+  yeah
+infixToPostfix 4 * ( 2 * + 4 - ( 2 + 2 ) ) - 4 / 5
+  yeah
+infixToPostfix ( 3 + 5 - ( 4 + 2 ) }
+  yeah
+infixToPostfix 3 + 4.2
+  yeah
+infixToPostfix -
+  yeah
+infixToPostfix @
+  yeah
